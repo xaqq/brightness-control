@@ -1,0 +1,8 @@
+[Unit]
+Description=Brightness Control Fix
+
+[Service]
+ExecStart=/opt/brightnessd.py
+
+[Install]
+WantedBy=multi-user.target 
